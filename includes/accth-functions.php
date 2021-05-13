@@ -9,7 +9,7 @@ function accth_register_settings() {
 	);
 	add_settings_field(
 		'accth_custom_code',
-		'Your custom code',
+		'Tracking code',
 		'accth_print_settings',
 		'general',
 		'accth_custom_code_section'
@@ -31,3 +31,4 @@ function accth_insert_codes() {
 	$accth_code = get_option( 'accth_custom_code' );
 	echo implode( '\n', $accth_code );
 }
+
