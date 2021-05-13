@@ -3,7 +3,7 @@
 function accth_register_settings() {
 	add_settings_section(
 		'accth_custom_code_section',
-		'Add your custom code here',
+		'Add your code here',
 		'__return_false',
 		'general'
 	);
